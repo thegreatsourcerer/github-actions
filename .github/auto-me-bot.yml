@@ -1,0 +1,18 @@
+---
+pr:
+  lifecycleLabels:
+    ignoreDrafts: true
+    labels:
+      reviewRequired: "status: needs a review"
+      changesRequested: "status: changes are requested"
+      moreReviewsRequired: "status: needs more reviews"
+      reviewStarted: "status: review started"
+      approved: "status: approved"
+      merged: "status: merged"
+  conventionalTitle:
+    rules:
+      'header-max-length': [2, 'always', 80]
+  tasksList:
+  autoApprove:
+    allBots: false
+    users: ['thegreatsourcerer']
